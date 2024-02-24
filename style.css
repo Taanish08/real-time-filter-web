@@ -1,0 +1,19 @@
+
+h2 {
+    font-size: 25px !important;
+}
+
+.btn-danger:hover {
+background-color: limegreen;
+}
+
+canvas {
+    animation-name: yes;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes yes {
+    from {box-shadow: 1px 1px 38px red}
+    to {box-shadow: 1px 1px 38px yellowgreen}
+}
